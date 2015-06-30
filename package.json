@@ -1,0 +1,32 @@
+{
+  "name": "cozy-template",
+  "version": "1.0.0",
+  "engines": [
+    "node = 0.10.x"
+  ],
+  "description": "A template project for cozy applications",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cozy/cozy-template-coffee.git"
+  },
+  "main": "server.coffee",
+  "dependencies": {
+    "americano": "0.3.11",
+    "cozydb": "0.0.3"
+  },
+  "devDependencies": {
+    "should": "4.0.1",
+    "mocha": "1.20.1",
+    "request-json": "0.4.10",
+    "cozy-fixtures": "1.1.1",
+    "coffeelint": "1.5.1",
+    "printit": "^0.1.3"
+  },
+  "scripts": {
+    "test": "cake tests",
+    "start": "node build/server.js"
+  },
+  "cozy-permissions": {},
+  "cozy-displayName": "Template"
+}
